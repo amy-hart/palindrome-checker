@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class PalindromeCheckerTest {
 
+    //visibility
     PalindromeChecker palindromeChecker;
 
     @Before
@@ -14,7 +15,7 @@ public class PalindromeCheckerTest {
 
     @Test
     public void palindromeCheckerReturnsTrueForSingleCharacterWords() {
-
+        //inline
         String testCase = "a";
 
         boolean result = palindromeChecker.check(testCase);
